@@ -30,8 +30,10 @@ function cari() {
 }
 
 function login(){
+    //mengambil value dari username dan password dari form loginkuy
     var user=loginkuy.username.value;
     var pass=loginkuy.password.value;
+	//melakukan cek user dan pass apakah sama atau tidak jika iya redirect ke halaman laporan penjualan, jika tidak muncul alert password salah
 	if (user=="admin"&&pass=="admin123") {
 		window.open("penjualan.php")
 	}else{
