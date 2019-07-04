@@ -57,7 +57,7 @@
 		// Menyimpan dalam format pembagian menggunakan " | ", Ex: Bima|Bantul
 		fputs($fp,"$nama|$alamat|$nohp|$jenisbarang|$harga|$ukuranbarang|$jumlah|$total\n");
 		fclose($fp);
-
+    //membuat folder bukti untuk menyimpan foto bukti transaksi
     $target_dir = "bukti/";
     if(!file_exists($target_dir)){
       mkdir($target_dir);
