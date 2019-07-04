@@ -1,0 +1,9 @@
+bima|jogja|082134247094|Baju KOKO|120000|XXL|2|240000
+bima|Rejokusuman, tamanan , banguntapan|082134247094|Baju KOKO|120000|XXL|2|240000
+Saddan|MBANTUL|082134247094|Kemeja Formal|150000|XXL|3|450000
+aaa|MBANTUL|082134247094|Kemeja Formal|150000|XL|12|1800000
+bima|Rejokusuman, tamanan , banguntapan|082134247094|Kemeja Formal|150000|XXL|12|1800000
+aaa|Rejokusuman, tamanan , banguntapan|082134247094|Kemeja Formal|150000|XXL|2|300000
+bima|MBANTUL|082134247094|Kemeja ASGARD|130000|XXL|3|390000
+heru|Rejokusuman, tamanan , banguntapan|082134247094|Baju KOKO|120000|XL|1|120000
+heru|Rejokusuman, tamanan , banguntapan|082134247094|Kemeja ASGARD|130000|XXL|2|260000

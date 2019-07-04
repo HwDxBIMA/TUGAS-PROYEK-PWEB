@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="header">
+        <img src="img/indonesia.png">
+        <h4>SADDAN BIMA NAGANTARA</h4>
+      </div>
+    </div>
+    <nav>
+      <div class="container">
+        <div class="nav navbar-nav">
+          <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="tokoku.php">Tokoku</a></li>
+            <li><a href="login.php">Penjualan</a></li>
+            <li><a href="pencarian.php">Mini Google</a></li>
+            <li><a href="biodata.html">About Us</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="contanier text-center">
+          <div class="minigoogle">
+                <img src="img/google.png">
+                <form name="formcari"  onSubmit="cari()">
+                <input name="keyword" size="40" type="text"><br>
+                <input type="submit" value="Penelurusan Google">
+                </form>
+          </div>
+    </div>
+
+    <section>
+      <div class="container text-center">
+        <p>&copy 2019 Bima Nagantara</p>
+      </div>
+    </section>
+
+    <script src="myjs.js"></script>    
+  </body>
+</html>
