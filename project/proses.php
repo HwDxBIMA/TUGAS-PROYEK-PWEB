@@ -32,7 +32,7 @@
     </nav>
     <!-- Berfungsi Untuk Menyimpan Hasil Form Ke dalam File TXT bukutransaksi -->
     <?php
-
+		//membuka file bukutransaksi.txt, +a digunakan untuk menulis hasil inputan di akhir file
 		$fp = fopen("bukutransaksi.txt","a+");
 		$total;
 		$nama = $_POST['nama'];
@@ -40,6 +40,7 @@
 		$nohp = $_POST['nohp'];
 		$jenisbarang = $_POST['jenis'];
 		$jumlah = $_POST['jumlah'];
+	  	//menyamakan dari pilihan jenis, supaya dapat menghitung sesuai dengan harga jenis barang
 		if ($_POST['jenis']=='Kemeja Batik') {
 			$harga=100000;
 			$total = $jumlah*$harga;
